@@ -1,0 +1,6 @@
+# Ignore API key file
+api_keys.py
+# Exclude sensitive files and unnecessary folders
+__pycache__/
+.ipynb_checkpoints/
+output_data/
