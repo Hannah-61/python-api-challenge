@@ -1,5 +1,8 @@
-Python API Challenge
-Overview
+##Python API Challenge
+
+
+
+--Overview
 The Python API Challenge explores the relationship between weather conditions and geographical location, with a particular focus on latitude. Through two major parts—WeatherPy and VacationPy—this project uses APIs to retrieve, analyze, and visualize weather data, and to identify ideal vacation destinations based on specific weather conditions.
 
 This project demonstrates the use of Python for data analysis, visualization, and API interaction, providing insights into the weather as we approach the equator.
