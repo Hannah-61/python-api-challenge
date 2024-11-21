@@ -67,50 +67,52 @@ requests: API interaction.
 numpy: Statistical computations.
 scipy.stats: Linear regression.
 hvplot and geoviews: Interactive geographic visualizations.
-APIs:
+
+
+--APIs:
 OpenWeatherMap API: Weather data retrieval.
 Geoapify API: Hotel location services.
-How to Run the Project
-Prerequisites
-Clone the repository:
 
-bash
-Copy code
+
+--How to Run the Project
+Prerequisites
+--Clone the repository:
 git clone https://github.com/<your-username>/python-api-challenge.git
 cd python-api-challenge
-Install dependencies:
 
-bash
-Copy code
+--Install dependencies:
 pip install -r requirements.txt
-Add API keys:
+
+
+--Add API keys:
 
 Save your OpenWeatherMap and Geoapify API keys in a file named api_keys.py with the following format:
-python
-Copy code
-weather_api_key = "your_openweathermap_api_key"
-geoapify_key = "your_geoapify_api_key"
-Steps
+   weather_api_key = "your_openweathermap_api_key"
+   geoapify_key = "your_geoapify_api_key"
+
+--Steps
 Open the notebooks:
-bash
-Copy code
 jupyter notebook
 Run the WeatherPy.ipynb notebook:
 Generate scatter plots and linear regression models for weather variables.
 Run the VacationPy.ipynb notebook:
 Filter cities based on ideal weather conditions.
 Create an interactive map of vacation destinations.
-Results and Insights
-WeatherPy
+
+--Results and Insights
+
+--WeatherPy
 Temperature vs. Latitude: Confirms that temperatures increase as you approach the equator.
 Humidity vs. Latitude: No consistent trend observed.
 Cloudiness vs. Latitude: Patterns vary with latitude but do not show a strong correlation.
 Wind Speed vs. Latitude: No clear relationship identified.
-VacationPy
+
+--VacationPy
 Ideal Vacation Cities: Identified cities with comfortable weather conditions.
 Hotel Map: Interactive visualization showing hotels near selected cities.
 Project Requirements
-WeatherPy
+
+--WeatherPy
 Scatter plots for:
 Latitude vs. Temperature
 Latitude vs. Humidity
@@ -118,12 +120,15 @@ Latitude vs. Cloudiness
 Latitude vs. Wind Speed
 Linear regression for:
 Northern and Southern Hemispheres.
-VacationPy
+
+--VacationPy
 Filter cities based on custom weather conditions.
 Locate hotels near cities using Geoapify API.
 Interactive map displaying cities, hotels, and hover details.
-Challenges and Learning
-This project involved:
+
+--Challenges and Learning
+
+--This project involved:
 
 Working with APIs and JSON responses.
 Handling geographic data and visualizing it with maps.
